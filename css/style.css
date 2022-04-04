@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background: #eeeeee;
+}
+label {
+    display: block;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+input[type='range'] {
+    width: 100%;
+}
+input[type='color'] {
+    border: none;
+    background: transparent;
+    width: 55px;
+    height: 55px;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+input[type='color']:hover {
+    cursor: pointer;
+}
+textarea {
+    width: 100%;
+    resize: none;
+    margin-bottom: 15px;
+    min-width: fit-content;
+    font-size: 13px;
+}
+.card {
+    height: 100%;
+}
+
+.card-header {
+    font-weight: bold;
+    color: #fff;
+}
+.row>div {
+    margin-bottom: 15px;
+}
